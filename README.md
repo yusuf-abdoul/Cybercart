@@ -1,17 +1,17 @@
 # ** Cybercart, a Shopping Cart created using react with Vite **
 A modern shopping cart with product listings, cart management, coupon discounts, and checkout flow, built with:
 
- # Vite + React
+  Vite + React
 
- # Context API (state management)
+  Context API (state management)
 
-# Tailwind CSS (styling)
+ Tailwind CSS (styling)
 
-# localStorage (persistence)
+ localStorage (persistence)
 
-# Form validation & error handling
+ Form validation & error handling
 
-# ** Features **
+ ** Features **
 Feature	Description
 Product Grid	12+ products with images, prices, and "Add to Cart" buttons
 Cart Management	Add/remove items, adjust quantities, real-time total calculation
@@ -20,7 +20,7 @@ Persistence	Cart saved in localStorage (survives page refresh)
 Checkout Flow	Mock payment form with validation
 Responsive Design	Works on mobile, tablet, and desktop
 
-# ** How to Use **
+ ** How to Use **
 * Shopping Experience
 Browse Products
 
