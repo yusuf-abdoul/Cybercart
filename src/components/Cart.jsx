@@ -12,7 +12,7 @@ const Cart = () => {
   } = useCart()
 
   return (
-    <div className="bg-gray-50 p-4 rounded-lg">
+    <div className="bg-gray-100 p-4 rounded-lg">
       <h2 className="text-xl font-bold mb-4">Your Cart</h2>
       {cart.length === 0 ? (
         <p>Your cart is empty</p>

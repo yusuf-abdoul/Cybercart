@@ -49,7 +49,7 @@ const Checkout = () => {
   const handleChange = (e) => {
     const { name, value } = e.target
     
-    // Format card number with spaces
+    // Formatting card number with spaces (e.g., 1234 5678 9012 3456)
     if (name === 'cardNumber') {
       const formattedValue = value.replace(/\s/g, '').replace(/(\d{4})/g, '$1 ').trim()
       setFormData(prev => ({ ...prev, [name]: formattedValue }))
@@ -64,7 +64,7 @@ const Checkout = () => {
     
     if (!validateForm()) return
     
-    // In a real app, you would process payment here
+    // Simulate order submission
     console.log('Order submitted:', { 
       ...formData, 
       cart, 

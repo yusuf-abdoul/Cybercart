@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { validateCoupon } from './couponValidation'
+import { validateCoupon } from '../couponValidation'
 
 describe('Coupon Validation', () => {
   it('should validate correct coupon code', () => {
